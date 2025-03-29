@@ -1,6 +1,6 @@
 # Rainbow Folders Fixer
 
-This is a plugin I made for personal use in [Obsidian](https://obsidian.md). It solves the issue of rainbow folders changing colors as DOM elements are loaded and unloaded in the File explorer by making use of data attributes.
+This is a plugin I made for personal use in [Obsidian](https://obsidian.md). It solves the issue of rainbow folders changing colors as DOM elements are loaded and unloaded (i.e. when scrolling) in the File explorer by making use of data attributes.
 
 # How to use
 
