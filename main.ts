@@ -47,7 +47,6 @@ export default class addFolderDataAttrPlugin extends Plugin {
 	allfolders: TFolder[] = [];
 
 	applycolorinfo() {
-		//const allfolders = this.app.vault.getAllFolders();
 		let imax = Number(this.settings.max);
 
 		//for folders in root
@@ -221,8 +220,6 @@ class addFolderDataAttrSettingsTab extends PluginSettingTab {
 		.setName('Number of colors')
 		.setDesc('The maximum number of colors your rainbow folders cycle through before repeating.')
 		.addText(text => text
-			//.setLimits(0,50,1)
-			//.setDynamicTooltip()
 			.setPlaceholder("10")
 			.setValue(this.plugin.settings.max)
 			.onChange(async (value) => {
